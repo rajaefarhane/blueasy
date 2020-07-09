@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Light"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Semilight"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Bold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Semibold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
+    font-weight: 700;
+}
+
+.logo > li  {display: inline-block;font-size: 30px;}
+.logo li:nth-child(1) { color: white;font-family: SegoeUI;font-weight: 600; }
+.logo li:nth-child(2) { color: white;font-family: SegoeUI; font-weight: 600;}
+.logo li:nth-child(3) { color: white;font-family: SegoeUI; font-weight: 600;}
+.logo li:nth-child(4) { color: #4bcaff;font-family: SegoeUI;font-weight: 600;}
+.logo li:nth-child(5) { color: white; font-family: SegoeUI;font-weight: 600;}
+.logo li:nth-child(6) { color: white ;font-family: SegoeUI;font-weight: 600;}
+.logo li:nth-child(7) { color: white; font-family: SegoeUI;font-weight: 600;}
+.f{width: 100%;height: 10rem;background-color:#24445C;opacity: 0.5;}
+:root{
+  --blue:#4bcaff;
+}
+ header{background-image: url(image/holder.jpg);height: 700px;background-size: auto;background-position: center;}
+.bg-dark{background-color:#24445C;opacity: 0.8;filter:(opacity=90);}
+.haut{height: 150px;}
+.active{color: #4bcaff;border: 1px solid var(--blue); font-family: SegoeUI;  font-weight: 600;font-size: 14px;}
+.txt{font-family: SegoeUI;  font-weight: 100;font-size: 30px;color: white}
+.couleur-blue{background-color:#4bcaff; height: 410px;}
+.txt-service{font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;  font-size:24px; color: white;}
+.parag-cof{font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;color: white;font-size: 12px;font-weight: 30;}
+.hauteur{height: 76px;}
+.bor{border-bottom: 2px solid white; }
+.portfolio{height: 840px;}
+.txt-portfolio{font-family: SegoeUI;  font-weight: 100;font-size: 30px;color: #515f67;}
+.bor-portfolio{border-bottom: 2px solid #515f67; }
+.txt-item-portfolio{font-family: SegoeUI;  font-weight: 600;color: #69747b;font-size: 14px;}
+.a:hover{border: 1px solid #4bcaff;}
+.af{display: none;}
+.txt-navbar{font-family: SegoeUI;  font-weight: 600;color: white;font-size: 14px;}
+.txt-p-who{font-family: SegoeUI;  font-weight: 100;color: white;font-size: 14px;}
+.what{background-image: url(image/backgrissimple.jpg);height: 473px;background-size: auto;background-position: center;}
+.whati{background-image: url(image/persone.jpg);height: 509px;background-size: auto;background-position: center;}
+.border-visit{border: 2px solide black;}
+.txt-btn{font-family: SegoeUI;  font-weight: 600;color: dark;font-size: 14px;}
+.testismonial{height:364px;background-color: weight;}
+.txt-parag-twit{font-family: SegoeUI;  font-weight: 100;font-size: 28px;color: white}
+.txt-parag-testimonials{font-family: SegoeUI;  font-weight: 100;font-size: 28px;color: dark;}
+.txt-bl{font-family: SegoeUI;  font-weight: 600;font-size: 14px;color: #4bcaff;}
+.ht{height: 305px;}
+.contact{background-image: url(image/layer.jpg); height: 814px;background-size: auto;background-position: center;}
+.foter{background-image: url(image/backfooter.jpg); height: 170px;}
+.btn-message{background-color: #4bcaff;border: 1px solid #4bcaff;width: 370px;height: 61px;}
+.bccc{border: 1px solid white;font-size: 11px;  background: transparent;height: 50px;width: 27rem;}
+.bc-mesage{border: 1px solid white;font-size: 11px;  background: transparent;height: 150px;width: 100%;}
+.txt-msg{font-family: SegoeUI;  font-weight: 600;color: white;font-size: 14px;}
+
+/*css image portfolio all*/
+.cont {
+position: relative;width: 50%;}
+.ii {display: block;width: 100%;height: auto;}
+.overlay {position: absolute;top: 0;bottom: 0;top: 0%;left: 5%;width: 88%;height: 89%;opacity: 0;transition: .5s ease;background-color:rgba(0, 0, 0, 0.5);}
+.deu .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  top: 9%;
+  left: 5%;
+  width: 88%;
+  height: 73%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+.cont:hover .overlay {opacity: 1;}
+.cont:hover .ii { opacity: 0.3;}
+.text {color: white;font-size: 40px;position: absolute;top: 50%;  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*css  pour afficher le contenu du item2*/
+.hidden{
+  display: none!important;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+.show {display:block;}
+
+/*rotation icone*/
+.rotate div img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.rotate div:hover img {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+.txt-service:hover{
+  font-size: 20px;
+}
+.parag-cof:hover{
+  font-size: 14px;
+  text-align: justify;
+}
